@@ -8,6 +8,7 @@ import MySideBar from "./pages/global/MySideBar";
 import Team from "./pages/team";
 import Contacts from "./pages/contacts";
 import Invoices from "./pages/invoice";
+import Form from "./pages/form";
 
 const App = () => {
   const { theme, colorMode } = useMode();
@@ -25,6 +26,7 @@ const App = () => {
               <Route path="/team" element={<Team />}></Route>
               <Route path="/contacts" element={<Contacts />}></Route>
               <Route path="/invoices" element={<Invoices />}></Route>
+              <Route path="/form" element={<Form />}></Route>
             </Routes>            
           </main>
         </div>
